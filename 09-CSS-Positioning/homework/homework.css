@@ -58,3 +58,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
   align-items: center;
 }
 
+#elementoUno {
+  display: flex;
+  align-items: flex-end;
+}
