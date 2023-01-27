@@ -1,0 +1,187 @@
+/*General*/
+body {
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000000;
+  box-sizing: inherit;
+}
+
+/*Texto*/
+p {
+  position: relative;
+  max-width: 500px;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 200px auto;
+  color: #4ee;
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  font-size: 250px;
+  margin: 0;
+  padding: 10px;
+  border: 0;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: auto;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  font-size: 90px;
+  line-height: 70px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 70px;
+  line-height: 50px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 35px;
+  transform-origin: 50% 100%;
+  transform: perspective(950px) rotateX(25deg);
+}
+
+/*Lista*/
+ul {
+  text-align: center;
+  font-size: 50px;
+  line-height: 30px;
+}
+
+/*Contenedores*/
+.contenedor {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  background-color: transparent;
+}
+
+.descripcion {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: block;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+/*Tablas*/
+.wrapper {
+  display: grid;
+}
+
+.bloque1 {
+  grid-column: 1 / 1;
+  grid-row: 1;
+}
+
+.bloque2 {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+
+.bloque3 {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.bloque4 {
+  grid-column: 4 / 4;
+  grid-row: 1;
+}
+
+/*Columnas*/
+
+.col {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.col {
+  width: 100%;
+}
+
+
+
+
+
+
+.img img{
+  width: 100%;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+
+}
+
+
+
+/*Fondos*/
+#bg1 {
+  background-color: #e1e8ea;
+}
+
+#bg2 {
+  background-color: goldenrod;
+}
+
+#bg3 {
+  background-color: rgb(83, 8, 136);
+}
+
+#bg4 {
+  background-color: rgb(0, 0, 0);
+}
+
+#back1 {
+  background-image: url("images/estrellas.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#back2 {
+  background-image: url("images/cubos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#back3 {
+  background-image: url("images/back3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Iconos*/
+#icono {
+  display: block;
+  align-items: center;
+}
+
+/*Tarjetas css*/
+
+#card {
+  text-align: center;
+}
